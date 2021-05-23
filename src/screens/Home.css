@@ -1,0 +1,121 @@
+.titlefont{
+  word-spacing: 0.75rem;
+  font-size: 2.8rem;
+  font-family: SVN-Avengeance;
+  margin: 0rem;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+#home{
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212035;
+}
+
+#banner {
+    background-image: url("../imgs/Banner.svg");
+    background-size:100% ;
+    width: 80rem;
+    height: 41rem;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-end;
+  }
+
+  #banner-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-end;
+    margin: 24rem 8rem 8rem 8rem;
+  }
+
+  #banner-p{
+
+    width: 36rem;
+    text-align: left;
+    margin-right: 8rem;
+    align-self: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  #banner-a{
+    font-size: 1.5rem;
+    color: #FCD11F;
+    border: 0.2rem solid #FCD11F;
+    padding: 1rem;
+  }
+
+  #mainstory {
+
+    width: 80rem;
+    height: 41rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  
+
+  #mainstory>div>div>img{
+    width: 20rem;
+    height: 1.5rem;
+    text-align: left;
+  }
+
+  #mainstory>div{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: left;
+  }
+
+  #mainstory>div>p{
+    width: 20rem;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  #mainstory>img{
+    height: 40rem;
+    text-align: right;
+  }
+
+  #dogeagent{
+    width: 80rem;
+  }
+
+  #dogeagent-title{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+
+  #dogeagent-title>img{
+    width: 16rem;
+    height: 1.5rem;
+    text-align: left;
+    padding-left: 4rem;
+  }
+
+  #dogeagent-cards{
+    width: 74rem;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  }

@@ -1,0 +1,32 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: SVN-Avengeance;
+    padding-right: 4rem;
+}
+
+.menu>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+.menu>ul>li {
+    padding: 1rem;
+    color: #1EF6F9;
+}
+
+.menu>ul>li>a {
+    font-size: 1.5rem;
+    color: #1EF6F9;
+}
+
+.menu>ul>li>a:active {
+    font-size: 1.5rem;
+    color: #FCD11F;
+
+}
