@@ -8,7 +8,7 @@ import Card2 from "../cpns/Card2";
 import Sypha1 from "../imgs/Sypha1.svg";
 import Sypha2 from "../imgs/Sypha2.svg";
 
-import Sort from "../imgs/Sypha1.svg";
+import Sort from "../imgs/Sort.svg";
 
 export default function Market() {
   return (
