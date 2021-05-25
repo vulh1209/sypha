@@ -1,18 +1,25 @@
-.checkbox{
-    width:9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+.checkbox {
+  width: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.checkbox>input{
-    background-color: transparent;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: 0.5rem;
+#checkbox-input {
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.5rem;
+  border: 0.15rem solid #28a745;
+  border-radius: 0.3rem;
+  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
 }
 
-.checkbox>label{
-    background-color: transparent; 
+.checkbox > label {
+  background-color: transparent;
 }

@@ -8,6 +8,8 @@ import Card2 from "../cpns/Card2";
 import Sypha1 from "../imgs/Sypha1.svg";
 import Sypha2 from "../imgs/Sypha2.svg";
 
+import Sort from "../imgs/Sypha1.svg";
+
 export default function Market() {
   return (
     <div id="market">
@@ -27,7 +29,7 @@ export default function Market() {
             <Checkbox value="Outlaw" checked="checked" />
             <Checkbox value="Crypto" checked="checked" />
           </div>
-          <div id="market-body-left-class">
+          <div className="groupcheckbox">
             <p>CLASS</p>
             <Checkbox value="Fighter" checked="checked" />
             <Checkbox value="Berserker" checked="checked" />
@@ -46,7 +48,7 @@ export default function Market() {
         <div id="market-body-right">
           <div id="market-body-right-filter">
             <p>Result (200)</p>
-            <img src="" alt="" />
+            <img src={Sort} alt="" />
           </div>
           <div id="market-body-right-content">
             <Card2 id="#9090" name="Origin Sypha" price="0.01" src={Sypha1} />

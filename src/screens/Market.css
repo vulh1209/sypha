@@ -85,7 +85,7 @@
   border-radius: 2rem;
 }
 
-.groupcheckbox{
+.groupcheckbox {
   margin-top: 1rem;
   width: 19vw;
   max-width: 20rem;
@@ -96,9 +96,30 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  color: #b3b89a;
 }
 
 .groupcheckbox > p {
-    width: 19vw;
-    max-width: 20rem;
+  margin: 0.5rem;
+  width: 19vw;
+  max-width: 20rem;
+  font-weight: bolder;
+  color: #28a745;
+}
+
+#market-body-right-filter {
+  width: 76vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#market-body-right-filter > p {
+  font-weight: bolder;
+}
+
+#market-body-right-filter > img {
+  width: 1rem;
+  height: 1rem;
 }
