@@ -1,51 +1,104 @@
 #market {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fcd11f;
 }
 
 #market-body {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 #market-body-left {
-    width: 18.75vw;
-    max-width: 24rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 20vw;
+  max-width: 24rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #market-body-right {
-    width: 81.25vw;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #market-body-right-filter {
-    width: 100%;
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #market-body-right-content {
-    display: flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#bgBuySell {
+  width: 19vw;
+  max-width: 20rem;
+  background: #212035;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnActive {
+  width: 6rem;
+  height: 2rem;
+  background: #28a745;
+  color: white;
+}
+.btnDeactive {
+  width: 6rem;
+  height: 2rem;
+  background: transparent;
+  color: white;
+}
+
+#searchnft {
+  margin-top: 1rem;
+  width: 19vw;
+  max-width: 20rem;
+  height: 2rem;
+  background: #29283d;
+  box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+}
+
+.groupcheckbox{
+  margin-top: 1rem;
+  width: 19vw;
+  max-width: 20rem;
+  align-self: flex-start;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.groupcheckbox > p {
+    width: 19vw;
+    max-width: 20rem;
 }

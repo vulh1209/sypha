@@ -1,0 +1,18 @@
+.checkbox{
+    width:9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkbox>input{
+    background-color: transparent;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+.checkbox>label{
+    background-color: transparent; 
+}

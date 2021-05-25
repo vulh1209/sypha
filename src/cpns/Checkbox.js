@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../cpns/Checkbox.css'
+
 export default function Checkbox({value,checked}) {
     return (
         <div className="checkbox">
