@@ -119,3 +119,38 @@
     justify-content:space-around;
     align-items: center;
   }
+
+  #gameplay{
+    width: 80rem;
+  }
+
+  #gameplay-title{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+
+  #gameplay-title>img{
+    width: 14rem;
+    height: 1.5rem;
+    text-align: left;
+    padding-left: 4rem;
+  }
+
+  #gameplay-gallery{
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+
+  #gameplay-gallery>{
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
