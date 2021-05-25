@@ -1,0 +1,30 @@
+#Encyclopedia {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fcd11f;
+}
+
+#Encyclopedia-body-left>ul {
+    list-style-type: none;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+#Encyclopedia-body-left>ul {
+    list-style-type: none;
+}
+
+.encyclopedia-node {
+    background-image: url("../imgs/Frame.svg");
+    background-size:cover;
+    margin: 1rem;
+    width: 13.8rem;
+}
+
+#Encyclopedia-body-left>ul >li>ul{
+    list-style-type: none;
+}
