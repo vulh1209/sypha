@@ -5,6 +5,8 @@
     align-items: flex-start;
     font-family: SVN-Avengeance;
     padding-right: 4rem;
+    letter-spacing: 0.08rem;    
+    word-spacing: 0.3rem;
 }
 
 
@@ -45,7 +47,9 @@
     font-family: SVN-Avengeance;
 }
 
-.menu>ul>li {
-    padding: 0rem 4rem;
+.submenu>ul>li>a {
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0rem 2rem;
     color: #1EF6F9;
 }
