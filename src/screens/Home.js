@@ -65,19 +65,20 @@ export default function Home() {
           <SubMenu />
         </div>
         <div id="gameplay-gallery">
-          <img src={PicPick}/>
+          <img src={PicPick} alt=''/>
           <div>
             <div>
-              <img />
-              <img />
+              <img  src={PicList[0]} onClick={()=>setPicPick(PicList[0])} alt=''/>
+              <img  src={PicList[1]} onClick={()=>setPicPick(PicList[1])} alt=''/>
             </div>
             <div>
-              <img />
-              <img />
+              <img  src={PicList[1]} onClick={()=>setPicPick(PicList[1])} alt=''/>
+              <img  src={PicList[0]} onClick={()=>setPicPick(PicList[0])} alt=''/>
             </div>
           </div>
         </div>
       </div>
+      <div id='footer'></div>
     </div>
   );
 }
