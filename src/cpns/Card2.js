@@ -8,11 +8,13 @@ export default function Card2({src,name,price,id}) {
             <div className="cardbg">
                 <div>{id}</div>
                 <img src={src} alt=''/>
-                <p>{name}</p>
+                <h3>{name}</h3>
                 <p>{price} ETH</p>
                 <hr/>
                 <a href='#'>View profile</a>
             </div>
+            <button className="btnActive">BUY</button>
         </div>
+            
     )
 }

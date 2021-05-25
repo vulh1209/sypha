@@ -1,5 +1,5 @@
 .checkbox {
-  width: 8rem;
+  min-width: 8.5rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

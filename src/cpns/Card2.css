@@ -1,3 +1,51 @@
-.cardbg{
-    margin: 1rem;
+.cardbg {
+    margin: 1rem 1.5rem;
+    background-color: #1EF6F9;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    color: #341F30;
+    font-weight: bold;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+.cardbg>div {
+    width: 50%;
+    margin: auto;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    /* border: 0.1rem solid black; */
+    background-color: violet;
+    z-index: 10;
+    position: relative;
+}
+
+.cardbg>img {
+    margin-top: -1rem;
+    z-index: 1;
+}
+
+.cardbg>h3 {
+    margin: 0rem;
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+}
+
+.cardbg>p {
+    margin: 0rem;
+    text-align: left;
+}
+
+.cardbg>a {
+    width: 100%;
+    margin: 0rem;
+    padding-left: 40%;
+    text-align: right;
+    color: #341F30;
+    text-decoration: none;
+    font-weight: bold;
 }

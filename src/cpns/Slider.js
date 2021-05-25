@@ -1,12 +1,15 @@
 import React from 'react'
+import "../cpns/Slider.css"
 
-export default function Slider({min,max,value,name}) {
+export default function Slider({ min, max, value, name }) {
     return (
-        <div>
+        <div className="slider">
             <p>{name}</p>
-            <span>{min}</span>
-            <span>{value}</span>
-            <input type="range" min={min} max={max} value={value} id={name}/>
+            <div>
+                <span>{min}</span>
+                <span>{value}</span>
+            </div>
+            <input type="range" min={min} max={max} value={value} id={name} />
         </div>
     )
 }

@@ -7,6 +7,9 @@
     padding-right: 4rem;
     letter-spacing: 0.08rem;    
     word-spacing: 0.3rem;
+    z-index: 1000;
+    height:6rem;
+    
 }
 
 

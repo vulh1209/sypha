@@ -20,7 +20,7 @@ export default function Market() {
             <button className="btnActive">BUY</button>
             <button className="btnDeactive">SELL</button>
           </div>
-          <input id="searchnft" />
+          <input id="searchnft" placeholder="Search ..."/>
           <div className="groupcheckbox">
             <p>CLAN</p>
             <Checkbox value="Origin sypha" checked="checked" />

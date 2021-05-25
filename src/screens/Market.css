@@ -1,9 +1,10 @@
 #market {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   color: #fcd11f;
 }
 
@@ -11,27 +12,31 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  height: 100vh;
 }
 
-#market-body-left {
-  width: 20vw;
-  max-width: 24rem;
+#market-body-left { 
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  
+  margin-top: -0.2rem;
+  background: #212035;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 #market-body-right {
-  width: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 #market-body-right-filter {
@@ -52,10 +57,10 @@
 }
 
 #bgBuySell {
-  width: 19vw;
-  max-width: 20rem;
-  background: #212035;
-  padding: 1rem;
+  width: 20vw;
+  background: #29283D;
+  margin: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -63,12 +68,14 @@
 }
 
 .btnActive {
+  margin: 0rem 1.5rem;
   width: 6rem;
   height: 2rem;
   background: #28a745;
   color: white;
 }
-.btnDeactive {
+.btnDeactive {  
+  margin: 0rem 1.5rem;
   width: 6rem;
   height: 2rem;
   background: transparent;
@@ -76,9 +83,9 @@
 }
 
 #searchnft {
-  margin-top: 1rem;
-  width: 19vw;
-  max-width: 20rem;
+  margin: 0rem 1rem;
+  padding-left: 1rem;  
+  width: 20vw;
   height: 2rem;
   background: #29283d;
   box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -86,10 +93,8 @@
 }
 
 .groupcheckbox {
-  margin-top: 1rem;
-  width: 19vw;
-  max-width: 20rem;
-  align-self: flex-start;
+  margin: 0rem 1rem;  
+  width: 20vw;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -100,26 +105,28 @@
 }
 
 .groupcheckbox > p {
-  margin: 0.5rem;
-  width: 19vw;
-  max-width: 20rem;
+  margin: 0.5rem;  
+  width: 20vw;
   font-weight: bolder;
   color: #28a745;
 }
 
 #market-body-right-filter {
-  width: 76vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 #market-body-right-filter > p {
   font-weight: bolder;
+  margin-left: 1rem;
 }
 
 #market-body-right-filter > img {
-  width: 1rem;
-  height: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
 }

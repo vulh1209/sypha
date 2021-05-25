@@ -1,0 +1,26 @@
+.slider {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.slider >input{
+    width: 20vw;  
+    /* margin-left: 1rem; */
+    height: 0.2rem;
+}
+
+.slider>p{
+    margin: 0.5rem 0rem;
+    text-align: left;
+}
+.slider>div{
+    margin-left: 0.5rem 0rem;
+    text-align: left;
+}
+.slider>div>span{
+    margin: 0.5rem 0rem;
+    text-align: left;
+}
