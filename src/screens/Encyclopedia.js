@@ -7,7 +7,8 @@ import ClanCard from "../cpns/ClanCard";
 import "../screens/Encyclopedia.css";
 import Sypha1 from "../imgs/Sypha1.svg";
 import Sypha2 from "../imgs/Sypha2.svg";
-import Sort from "../imgs/Sort.svg";
+import CharacterClass from "../cpns/CharacterClass";
+import Card from "../cpns/Card";
 
 export default function Encyclopedia() {
   return (
@@ -240,7 +241,8 @@ export default function Encyclopedia() {
                 explore worlds that their human hosts could only dream ofased
                 later
               </div>
-              <img />
+
+              <img src="" alt="" />
             </div>
           </div>
           <h2>The Doge Agents</h2>
@@ -295,6 +297,173 @@ export default function Encyclopedia() {
               src={Sypha1}
               description="Clan slogan clan slogan clan slogan"
             />
+          </div>
+          <h3>character Class</h3>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.
+          </div>
+          <div>
+            <CharacterClass
+              class_src={Sypha1}
+              class_title="Fighter"
+              class_intro="Such melee, many bonk"
+              class_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              prop1="10 INT"
+              prop2="20 DEX"
+              prop3="100 MP"
+            />
+            <CharacterClass
+              class_src={Sypha1}
+              class_title="Fighter"
+              class_intro="Such melee, many bonk"
+              class_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              prop1="10 INT"
+              prop2="20 DEX"
+              prop3="100 MP"
+            />
+            <CharacterClass
+              class_src={Sypha1}
+              class_title="Fighter"
+              class_intro="Such melee, many bonk"
+              class_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              prop1="10 INT"
+              prop2="20 DEX"
+              prop3="100 MP"
+            />
+            <CharacterClass
+              class_src={Sypha1}
+              class_title="Fighter"
+              class_intro="Such melee, many bonk"
+              class_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              prop1="10 INT"
+              prop2="20 DEX"
+              prop3="100 MP"
+            />
+          </div>
+          <h2>Gameplay</h2>
+          <h3>Many play. Such fascinate!</h3>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div>
+            <div>
+              <Card />
+              <Card />
+            </div>
+            <div>
+              <Card />
+              <Card />
+            </div>
+          </div>
+          <h1>SIPHER TECHNOLOGIES</h1>
+          <h2>Overview Phase 1</h2>
+          <div>
+            We use GANs Model to create 10,000 characters (SIPHERIAN) of the
+            world SIPHΞRIA, these characters are unique and implemented on NFTs
+            technolog. the power of AI the characters can chat with you, play
+            games and assistant about crypto
+          </div>
+          <img src="" alt="" />
+          <h2>Sipher NFTs</h2>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          </div>
+          <h3>Wallet supported</h3>
+          <div>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
+          <h2>GAN Algorithm to create unitque NFT doge agent</h2>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <img src="" alt="" />
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <ul>
+            <li>100% provable.</li>
+            <li>Totaly random</li>
+            <li>Fair Distribution</li>
+            <li>Absolutely unique</li>
+          </ul>
+          <h2>Hekate AI Engine to make your NFTs ALIVE</h2>
+          <div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+            <img src="" alt="" />
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Consectetur adipiscing elit. Ask for a joke (mostly related to
+              crytoworld): Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ask for a fortune-telling: Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. In doge culture, we believe in
+              fortune teller as much as we trust our wildest dream. Ask for a
+              mini game: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Currently, we have lauched X mini games, click here for
+              more info. Ask for hot deals: Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Click here for Marketplace. Ask for
+              investment advices (just for crytoworld): Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Setup price alert
+              bois: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+          </div>
+          <div>
+            <img src="" alt="" />
           </div>
         </div>
       </div>
