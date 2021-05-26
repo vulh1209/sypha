@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Menu from "../cpns/Menu";
+
+import Menu2 from "../cpns/Menu2";
 import SubMenu from "../cpns/SubMenu";
 import "../screens/Home.css";
 import Line from "../imgs/Line.svg";
@@ -17,7 +18,7 @@ export default function Home() {
   return (
     <div id="home">
       <div id="banner">
-        <Menu />
+        <Menu2 />
         <div id="banner-div">
           <div id="banner-p">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

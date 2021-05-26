@@ -6,9 +6,9 @@ import Encyclopedia from './screens/Encyclopedia'
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}      
-      <Market/>
-      {/* <Encyclopedia/> */}
+      {/* <Home/>       */}
+      {/* <Market/> */}
+      <Encyclopedia/>
     </div>
   );
 }

@@ -9,24 +9,24 @@
 }
 
 #Encyclopedia-body {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start; 
-    flex:1;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+}
 
 #Encyclopedia-body-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    
-    background: #212035;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background: #212035;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  height: 90vh;
 }
 
 #Encyclopedia-body-left > ul {
@@ -53,4 +53,12 @@
 
 #Encyclopedia-body-left > ul > li > ul > li > a {
   padding-left: 0.5rem;
+}
+
+#Encyclopedia-body-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
 }
