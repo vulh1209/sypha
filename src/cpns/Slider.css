@@ -1,13 +1,14 @@
 .slider {
-    width: 20vw;
+    width: 18vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 0.5rem;
 }
 
 .slider >input{
-    width: 20vw;  
+    width: 17vw;  
     /* margin-left: 1rem; */
     height: 0.2rem;
 }

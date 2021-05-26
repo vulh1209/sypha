@@ -16,8 +16,8 @@ export default function Encyclopedia() {
                                 About Sipher
                             </div>
                             <ul>
-                                <li>Abstract</li>
-                                <li>Vision & Mission</li>
+                                <li><a>Abstract</a></li>
+                                <li><a>Vision & Mission</a></li>
                             </ul>
                         </li>
                         <li>
@@ -25,11 +25,11 @@ export default function Encyclopedia() {
                                 The playground
                             </div>
                             <ul>
-                                <li>Main Story</li>
-                                <li>Doge Agents</li>
-                                <li>Mechanics</li>
-                                <li>Items</li>
-                                <li>Events</li>
+                                <li><a>Main Story</a></li>
+                                <li><a>Doge Agents</a></li>
+                                <li><a>Mechanics</a></li>
+                                <li><a>Items</a></li>
+                                <li><a>Events</a></li>
                             </ul>
                         </li>
                         <li>
@@ -37,9 +37,9 @@ export default function Encyclopedia() {
                                 technology
                             </div>
                             <ul>
-                                <li>NFTs</li>
-                                <li>AI</li>
-                                <li>GAN</li>
+                                <li><a>NFTs</a></li>
+                                <li><a>AI</a></li>
+                                <li><a>GAN</a></li>
                             </ul>
                         </li>
                         <li>
@@ -47,7 +47,7 @@ export default function Encyclopedia() {
                                 Tokennomic
                             </div>
                             <ul>
-                                <li>Sipher token</li>
+                                <li><a>Sipher token</a></li>
                             </ul>
                         </li>
                         <li>
@@ -55,9 +55,9 @@ export default function Encyclopedia() {
                                 roadmap
                             </div>
                             <ul>
-                                <li>Phase 1</li>
-                                <li>Phase 2</li>
-                                <li>Phase n</li>
+                                <li><a>Phase 1</a></li>
+                                <li><a>Phase 2</a></li>
+                                <li><a>Phase n</a></li>
                             </ul>
                         </li>
                         <li>
@@ -65,7 +65,7 @@ export default function Encyclopedia() {
                                 our team & partners
                             </div>
                             <ul>
-                                <li>Sipher team & partners</li>
+                                <li><a>Sipher team & partners</a></li>
                             </ul>
                         </li>
                         <li>
@@ -73,7 +73,7 @@ export default function Encyclopedia() {
                                 community channels
                             </div>
                             <ul>
-                                <li>Sipher community</li>
+                                <li><a>Sipher community</a></li>
                             </ul>
                         </li>
                     </ul>

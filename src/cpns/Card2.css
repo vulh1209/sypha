@@ -1,7 +1,7 @@
 .cardbg {
     margin: 1rem 1.5rem;
     background-color: #1EF6F9;
-    padding: 1rem;
+    padding: 1vh;
     border-radius: 1rem;
     border: 0.1rem solid black;
     color: #341F30;
@@ -26,6 +26,7 @@
 .cardbg>img {
     margin-top: -1rem;
     z-index: 1;
+    width:9vw;
 }
 
 .cardbg>h3 {
