@@ -4,7 +4,7 @@ import MiniCard from "../cpns/MiniCard";
 import Menu2 from "../cpns/Menu2";
 import Card3 from "../cpns/Card3";
 import ClanCard from "../cpns/ClanCard";
-import "../screens/Encyclopedia.css";
+import "../css/Encyclopedia.css";
 import Sypha1 from "../imgs/Sypha1.svg";
 import Sypha2 from "../imgs/Sypha2.svg";
 import CharacterClass from "../cpns/CharacterClass";

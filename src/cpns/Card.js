@@ -1,5 +1,5 @@
 import React from 'react'
-import '../cpns/Card.css';
+import '../css/Card.css';
 
 import Border from '../imgs/Border.svg';
 

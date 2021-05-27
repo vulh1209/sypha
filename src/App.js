@@ -1,4 +1,4 @@
-import './App.css';
+import "./css/App.css";
 import Home from './screens/Home';
 import Market from './screens/Market'
 import Encyclopedia from './screens/Encyclopedia'

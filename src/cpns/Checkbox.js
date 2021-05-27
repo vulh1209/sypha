@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../cpns/Checkbox.css'
+import '../css/Checkbox.css'
 
 export default function Checkbox({value,checked}) {
     return (

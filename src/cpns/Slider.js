@@ -1,5 +1,5 @@
 import React from 'react'
-import "../cpns/Slider.css"
+import "../css/Slider.css"
 
 export default function Slider({ min, max, value, name }) {
     return (

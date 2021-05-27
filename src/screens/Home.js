@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Menu2 from "../cpns/Menu2";
 import SubMenu from "../cpns/SubMenu";
-import "../screens/Home.css";
+import "../css/Home.css";
 import Line from "../imgs/Line.svg";
 import Avatar from "../imgs/Avatar.svg";
 import MainStory from "../imgs/MainStory.svg";

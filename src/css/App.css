@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
 @font-face {
   font-family: 'SVN-Avengeance';
-  src: local('SVN-Avengeance'), url('./fonts/SVN-Avengeance.otf') format("opentype");
+  src: local('SVN-Avengeance'), url('../fonts/SVN-Avengeance.otf') format("opentype");
   ;
 }
 

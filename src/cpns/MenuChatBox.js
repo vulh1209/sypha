@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Menu.css';
 
-export default function Menu2() {
+export default function MenuChatBox() {
     return (
         <div className="menu menu2">
             <ul>

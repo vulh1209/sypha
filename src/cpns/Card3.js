@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../cpns/Card2.css'
+import '../css/Card2.css'
 
 export default function Card3({src,name,price,id}) {
     return (

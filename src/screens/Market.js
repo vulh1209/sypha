@@ -1,6 +1,6 @@
 import React from "react";
 import Menu2 from "../cpns/Menu2";
-import "../screens/Market.css";
+import "../css/Market.css";
 import Checkbox from "../cpns/Checkbox";
 import Slider from "../cpns/Slider";
 import Card2 from "../cpns/Card2";

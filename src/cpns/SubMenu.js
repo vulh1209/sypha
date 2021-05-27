@@ -1,5 +1,5 @@
 import React from 'react'
-import '../cpns/Menu.css';
+import '../css/Menu.css';
 
 export default function SubMenu() {
     return (
