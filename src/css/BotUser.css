@@ -1,0 +1,53 @@
+.botuser{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+
+.botuser > img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;  
+    padding: 0.5rem 0.5rem 0.5rem 1rem; 
+}
+
+.botuser > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:stretch;
+    width: 100%;
+    padding: 0rem 0.5rem 0rem 0rem;
+    flex: 1;    
+    height: 100%;
+}
+
+.botuser > div>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botuser > div>div>h3{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.botuser > div>div>p{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.botuser > div>p{
+    
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
