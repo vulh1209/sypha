@@ -3,10 +3,14 @@ import styled from "styled-components";
 import MenuChatBox from "../cpns/MenuChatBox";
 import BotUser from "../cpns/BotUser";
 
+import PopupChatbox from "../cpns/PopupChatbox";
+
 import Looker from "../imgs/Looker.svg";
 import AddUser from "../imgs/AddUser.svg";
 import Sypha1 from "../imgs/Sypha1.svg";
 import Sypha2 from "../imgs/Sypha2.svg";
+
+import BGChat from "../imgs/BGChat.svg";
 
 const Wrap = styled.div`
   width: 100vw;
@@ -15,7 +19,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: stretch;
   color: #fcd11f;
-  height:100vh; 
+  height: 100vh;
 `;
 const Chat_Body = styled.div`
   width: 100%;
@@ -59,9 +63,20 @@ const Chat_Right = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   flex: 1;
+  background-image: url(${BGChat});
+  width: 100%;
+  height: 100%;
 `;
 const Chat_Right_Top = styled.div``;
-const Chat_Right_Content = styled.div``;
+const Chat_Right_Content = styled.div`
+
+width: 100%;
+  height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+`;
 const Chat_Right_Editor = styled.div``;
 
 export default function Chatbox2() {
@@ -104,14 +119,19 @@ export default function Chatbox2() {
         </Chat_Left>
         <Chat_Right>
           <Chat_Right_Top>
-          <BotUser
-              bot_src={Sypha1}
-              bot_name="Mary"
-              time_ago="1m ago"
-              last_line="hello Vũ"
-            />
+            <div className="botuser">
+              <img src={Sypha1} alt="" />
+              <div>
+                <div>
+                  <h3>"Mary"</h3>
+                </div>
+                <p>Online (as always)</p>
+              </div>
+            </div>
           </Chat_Right_Top>
-          <Chat_Right_Content></Chat_Right_Content>
+          <Chat_Right_Content>
+              <PopupChatbox/>
+          </Chat_Right_Content>
           <Chat_Right_Editor></Chat_Right_Editor>
         </Chat_Right>
       </Chat_Body>
