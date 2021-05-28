@@ -5,7 +5,7 @@ import Border from '../imgs/Border.svg';
 
 export default function Card({link}) {
     return (
-        <div className='card'>
+        <div key={link} className='card'>
             <img className='card-img' src={link} alt={link}/>
             <img className='card-border' src={Border} alt={Border}/>
         </div>

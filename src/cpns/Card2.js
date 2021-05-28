@@ -4,7 +4,7 @@ import '../css/Card2.css'
 
 export default function Card2({src,name,price,id}) {
     return (
-        <div>
+        <div key={id}>
             <div className="cardbg">
                 <div>{id}</div>
                 <img src={src} alt=''/>

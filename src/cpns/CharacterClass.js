@@ -10,7 +10,7 @@ export default function CharacterClass({
   prop3,
 }) {
   return (
-    <div>
+    <div key={class_title}>
       <img src={class_src} alt="" />
       <div>
         <h3>{class_title}</h3>

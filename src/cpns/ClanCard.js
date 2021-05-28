@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ClanCard({src,name,price,description}) {
     return (
-        <div>
+        <div key={name}>
             <img src={src} alt=""/>
             <h1>{name}</h1>
             <p>{description}</p>

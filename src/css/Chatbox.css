@@ -32,7 +32,7 @@
 
   #chatbox-body-left-top { 
     padding-top: 1rem;
-    width:19vw;
+    width:20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -43,6 +43,10 @@
     background-color: transparent;
     border: 0rem 0rem 0.1 rem 0rem solid white;
     width: 11vw;
+  }
+
+  #chatbox-body-left-botcontainer{
+    padding-top: 2rem;
   }
 
   #chatbox-body-right {
