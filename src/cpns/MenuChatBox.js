@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Menu.css';
 
 export default function MenuChatBox() {
     return (
